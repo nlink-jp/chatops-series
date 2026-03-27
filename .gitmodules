@@ -1,0 +1,9 @@
+[submodule "scat"]
+	path = scat
+	url = https://github.com/nlink-jp/scat.git
+[submodule "stail"]
+	path = stail
+	url = https://github.com/nlink-jp/stail.git
+[submodule "slack-router"]
+	path = slack-router
+	url = https://github.com/nlink-jp/slack-router.git
