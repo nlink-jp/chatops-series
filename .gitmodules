@@ -7,3 +7,6 @@
 [submodule "slack-router"]
 	path = slack-router
 	url = https://github.com/nlink-jp/slack-router.git
+[submodule "md-to-slack"]
+	path = md-to-slack
+	url = https://github.com/nlink-jp/md-to-slack.git
