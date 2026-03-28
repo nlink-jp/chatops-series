@@ -10,3 +10,6 @@
 [submodule "md-to-slack"]
 	path = md-to-slack
 	url = https://github.com/nlink-jp/md-to-slack.git
+[submodule "swrite"]
+	path = swrite
+	url = https://github.com/nlink-jp/swrite.git
