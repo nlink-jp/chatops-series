@@ -16,10 +16,11 @@ Pipe-friendly Slack tools for ChatOps automation and monitoring.
 
 ```
 chatops-series/
-├── md-to-slack/    github.com/nlink-jp/md-to-slack    (Go — Markdown → Slack Block Kit)
+├── swrite/         github.com/nlink-jp/swrite          (Go — Slack writer for bot pipelines)
+├── stail/          github.com/nlink-jp/stail           (Go — Slack tail -f)
 ├── scat/           github.com/nlink-jp/scat            (Go — multi-destination content poster)
 ├── slack-router/   github.com/nlink-jp/slack-router    (Go — Slash Command daemon)
-└── stail/          github.com/nlink-jp/stail           (Go — Slack tail -f)
+└── md-to-slack/    github.com/nlink-jp/md-to-slack    (Go — Markdown → Slack Block Kit)
 ```
 
 ## Release checklist

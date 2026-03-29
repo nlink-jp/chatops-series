@@ -9,17 +9,18 @@ This umbrella repository tracks them together as git submodules and hosts shared
 
 | Tool | Description |
 |------|-------------|
+| [swrite](https://github.com/nlink-jp/swrite) | Slack writer — post messages and files to Slack channels and DMs from pipelines |
+| [stail](https://github.com/nlink-jp/stail) | Slack tail — stream channel messages in real time (`tail -f`) or export history to JSON |
 | [scat](https://github.com/nlink-jp/scat) | General-purpose content poster — send text, files, and Block Kit messages to Slack from stdin or files |
-| [stail](https://github.com/nlink-jp/stail) | Read-only Slack CLI — stream channel messages in real time (`tail -f`) or export history to JSON |
 | [slack-router](https://github.com/nlink-jp/slack-router) | Slack Slash Command daemon — routes commands to local shell scripts via Socket Mode |
-| [md-to-slack](https://github.com/nlink-jp/md-to-slack) | Markdown → Slack Block Kit JSON filter — pipe into `scat` to post formatted messages |
+| [md-to-slack](https://github.com/nlink-jp/md-to-slack) | Markdown → Slack Block Kit JSON filter — pipe into `swrite` to post formatted messages |
 
 ## Design Philosophy
 
-- **Pipe-friendly**: `scat` and `stail` are composable with standard Unix tools — stdout is data, stderr is diagnostics.
+- **Pipe-friendly**: `swrite`, `stail`, and `scat` are composable with standard Unix tools — stdout is data, stderr is diagnostics.
 - **Decoupled**: `slack-router` separates routing from response — the daemon ACKs the command, your script handles the reply.
-- **Secure by default**: tokens via environment variables or OS keychain; `slack-router` passes parameters via stdin JSON (not argv).
-- **Server-ready**: `scat` and `stail` support `SCAT_MODE=server` / `STAIL_MODE=server` for container and CI deployments.
+- **Secure by default**: tokens via environment variables or config files; `slack-router` passes parameters via stdin JSON (not argv).
+- **Server-ready**: `swrite`, `stail`, and `scat` support `*_MODE=server` for container and CI deployments.
 
 ## Build
 
