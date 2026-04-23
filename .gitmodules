@@ -13,6 +13,3 @@
 [submodule "swrite"]
 	path = swrite
 	url = https://github.com/nlink-jp/swrite.git
-[submodule "slack-personal-agent"]
-	path = slack-personal-agent
-	url = https://github.com/nlink-jp/slack-personal-agent.git
