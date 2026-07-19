@@ -13,3 +13,6 @@
 [submodule "swrite"]
 	path = swrite
 	url = https://github.com/nlink-jp/swrite.git
+[submodule "slack-mcp-extender"]
+	path = slack-mcp-extender
+	url = https://github.com/nlink-jp/slack-mcp-extender.git

@@ -20,7 +20,8 @@ chatops-series/
 ├── stail/          github.com/nlink-jp/stail           (Go — Slack tail -f)
 ├── scat/           github.com/nlink-jp/scat            (Go — multi-destination content poster)
 ├── slack-router/   github.com/nlink-jp/slack-router    (Go — Slash Command daemon)
-└── md-to-slack/    github.com/nlink-jp/md-to-slack    (Go — Markdown → Slack Block Kit)
+├── md-to-slack/    github.com/nlink-jp/md-to-slack    (Go — Markdown → Slack Block Kit)
+└── slack-mcp-extender/  github.com/nlink-jp/slack-mcp-extender  (Go — official Slack MCP proxy + upload tools; user-token by design)
 ```
 
 ## Release checklist
