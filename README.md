@@ -14,7 +14,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [scat](https://github.com/nlink-jp/scat) | General-purpose content poster — send text, files, and Block Kit messages to Slack from stdin or files |
 | [slack-router](https://github.com/nlink-jp/slack-router) | Slack Slash Command daemon — routes commands to local shell scripts via Socket Mode |
 | [md-to-slack](https://github.com/nlink-jp/md-to-slack) | Markdown → Slack Block Kit JSON filter — pipe into `swrite` to post formatted messages |
-| [slack-mcp-extender](https://github.com/nlink-jp/slack-mcp-extender) | Transparent proxy for the official Slack MCP — adds file-attachment upload tools under the user's own identity |
+| [slack-mcp-extender](https://github.com/nlink-jp/slack-mcp-extender) | Transparent proxy for the official Slack MCP — adds ext_ file upload/download tools under the user's own identity |
 
 ## Design Philosophy
 
