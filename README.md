@@ -35,7 +35,7 @@ make test       # Run the test suite
 make clean      # Remove dist/
 ```
 
-Target platforms: `linux/amd64`, `linux/arm64`, `darwin/amd64`, `darwin/arm64`, `windows/amd64`.
+Target platforms: `linux/amd64`, `linux/arm64`, `darwin/arm64`, `windows/amd64`. darwin is arm64-only.
 
 > **Note for `slack-router`**: daemon tool — Windows is not a supported target platform.
 
