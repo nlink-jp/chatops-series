@@ -11,7 +11,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 |------|-------------|
 | [swrite](https://github.com/nlink-jp/swrite) | Slack writer — post messages and files to Slack channels and DMs from pipelines |
 | [stail](https://github.com/nlink-jp/stail) | Slack tail — stream channel messages in real time (`tail -f`) or export history to JSON |
-| [scat](https://github.com/nlink-jp/scat) | General-purpose content poster — send text, files, and Block Kit messages to Slack from stdin or files |
+| [scat](https://github.com/nlink-jp/scat) | Slack CLI for services using bot credentials — posts, files, streams, channel invitations and scli-compatible exports |
 | [slack-router](https://github.com/nlink-jp/slack-router) | Slack Slash Command daemon — routes commands to local shell scripts via Socket Mode |
 | [md-to-slack](https://github.com/nlink-jp/md-to-slack) | Markdown → Slack Block Kit JSON filter — pipe into `swrite` to post formatted messages |
 | [slack-mcp-extender](https://github.com/nlink-jp/slack-mcp-extender) | Transparent proxy for the official Slack MCP — adds ext_ file upload/download tools under the user's own identity |
