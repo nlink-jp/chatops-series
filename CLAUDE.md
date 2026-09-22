@@ -18,7 +18,7 @@ Pipe-friendly Slack tools for ChatOps automation and monitoring.
 chatops-series/
 ├── swrite/         github.com/nlink-jp/swrite          (Go — Slack writer for bot pipelines)
 ├── stail/          github.com/nlink-jp/stail           (Go — Slack tail -f)
-├── scat/           github.com/nlink-jp/scat            (Go — multi-destination content poster)
+├── scat/           github.com/nlink-jp/scat            (Go — Slack CLI for services, bot token)
 ├── slack-router/   github.com/nlink-jp/slack-router    (Go — Slash Command daemon)
 ├── md-to-slack/    github.com/nlink-jp/md-to-slack    (Go — Markdown → Slack Block Kit)
 └── slack-mcp-extender/  github.com/nlink-jp/slack-mcp-extender  (Go — official Slack MCP proxy + upload tools; user-token by design)
